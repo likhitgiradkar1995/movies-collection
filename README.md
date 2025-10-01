@@ -1,16 +1,82 @@
-# React + Vite
+🎬 Movies Collection
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React.js application that displays a list of movies fetched from The Movie Database (TMDb) API
+. Users can search, filter, and sort movies by year, language, rating, and more. The app also supports light/dark mode with a toggle switch.
 
-Currently, two official plugins are available:
+🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://movies-collection-by-likhit.netlify.app/
+🛠 Features
 
-## React Compiler
+Display movies with poster, title, release date, rating, and language.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Search movies by name.
 
-## Expanding the ESLint configuration
+Filter by:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Year of release
+
+Language
+
+Rating
+
+Sort by:
+
+Year released
+
+A-Z / Z-A
+
+Personalized suggestions
+
+Light/Dark theme toggle.
+
+Responsive design using Material UI.
+
+State management with Redux Toolkit.
+
+Optimized API calls with Axios.
+
+⚡ Tech Stack
+
+React.js (Functional Components + Hooks)
+
+Redux Toolkit for state management
+
+React Context API for theme handling
+
+Material UI for UI components
+
+Axios for API requests
+
+Vite as a build tool
+
+Jest + React Testing Library for testing
+
+🚀 Getting Started
+Prerequisites
+
+Node.js >= 16.x
+
+npm or yarn
+
+TMDb API Key (free signup required)
+
+Installation
+# Clone the repository
+git clone https://github.com/your-username/movies-collection.git
+cd movies-collection
+
+# Install dependencies
+npm install
+# or
+yarn install
+
+Run Locally
+npm run dev
+# or
+yarn dev
+
+📸 Screenshots
+
+<img width="952" height="443" alt="image" src="https://github.com/user-attachments/assets/cbc005dc-efad-48a1-b140-b424588a3f40" />
+
